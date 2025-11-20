@@ -16,7 +16,7 @@ import profileData from "@/data/profile.json";
 
 const Index = () => {
   return (
-    <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
+    <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
       <SEOHead />
       <div className="relative">
         {/* Theme Toggle - Fixed Position */}
