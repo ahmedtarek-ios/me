@@ -20,6 +20,11 @@ export const Hero = () => {
     ? profile.darkmode_pic.main_pic 
     : profile.lightmode_pic.main_pic;
 
+  const resumeFileName = "Ahmed_Tareks_Resume.pdf";
+  const basePath = import.meta.env.BASE_URL || "/";
+  const normalizedBase = basePath.endsWith("/") ? basePath : `${basePath}/`;
+  const resumeUrl = `${normalizedBase}${resumeFileName}`;
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-hero">
       {/* Animated background elements */}
@@ -125,8 +130,8 @@ export const Hero = () => {
               
               {/* CV Download Button */}
               <a 
-                href="/me/Ahmed_Tarek_Ahmeds_Resume.pdf" 
-                download 
+                href={resumeUrl} 
+                download={resumeFileName}
                 className="absolute -bottom-3 -right-3 sm:-bottom-4 sm:-right-4 bg-gradient-primary text-primary-foreground px-4 py-3 sm:px-6 sm:py-4 rounded-xl sm:rounded-2xl shadow-elegant hover:shadow-glow transition-all duration-300 cursor-pointer group"
               >
                 <Download className="w-6 h-6 sm:w-8 sm:h-8 group-hover:animate-bounce mx-auto" />
