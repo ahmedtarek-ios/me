@@ -125,7 +125,7 @@ export const Hero = () => {
               
               {/* CV Download Button */}
               <a 
-                href="/Ahmed_Tareks_Resume.pdf" 
+                href="/Ahmed_Tarek_Ahmeds_Resume.pdf" 
                 download 
                 className="absolute -bottom-3 -right-3 sm:-bottom-4 sm:-right-4 bg-gradient-primary text-primary-foreground px-4 py-3 sm:px-6 sm:py-4 rounded-xl sm:rounded-2xl shadow-elegant hover:shadow-glow transition-all duration-300 cursor-pointer group"
               >
