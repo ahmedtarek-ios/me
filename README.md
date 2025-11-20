@@ -13,7 +13,7 @@ I’m Ahmed—“Medo” to most teams—a Cairo-based senior iOS engineer obses
 - `/projects` is a deep dive gallery with VIP pinning, technology tags, modal walk-throughs, and store links for each app.
 - Contact area blends WhatsApp one-taps, EmailJS-powered validation, and a Google Map pinned to Maadi.
 - Floating share widgets, WhatsApp quick actions, and theme toggling switch between light/dark portraits to keep the brand personal.
-- Structured data, sitemap, and SEO metadata ensure recruiters or clients can find me (and message me) fast.
+- Structured data, sitemap, and SEO metadata ensure recruiters or clients can find me (and message me) fast. The SPA uses `HashRouter`, so GitHub Pages (and any static host) can refresh deep links safely.
 
 ## Signature Work
 - **El Ezaby Pharmacy** – Led the SwiftUI + Combine rewrite of Egypt’s largest pharmacy app, shipping subscription ordering and loyalty mechanics.
@@ -79,5 +79,5 @@ Run `npm run build`, then host the `dist/` folder on Vercel, Netlify, GitHub Pag
 ### GitHub Pages workflow
 1. Push to `main` (or trigger the workflow manually) and let `.github/workflows/deploy.yml` build and publish to the `github-pages` environment.
 2. In repo settings → Pages, pick **GitHub Actions** as the source.
-3. The action automatically copies `dist/index.html` to `dist/404.html`, making React Router work even when refreshing deep links like `/projects`.
-4. During GitHub Actions builds, Vite inspects `GITHUB_REPOSITORY` to set `base` (and React Router `basename`) to `/<repo-name>/`, so every navigation and asset request works under `https://username.github.io/<repo-name>/`.
+3. The action automatically copies `dist/index.html` to `dist/404.html`, though routing now relies on `HashRouter`, which GitHub Pages handles naturally.
+4. Vite serves assets with a relative `base: "./"`, so everything loads regardless of the repo name or custom domain.
