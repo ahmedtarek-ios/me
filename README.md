@@ -75,3 +75,9 @@ I’m Ahmed—“Medo” to most teams—a Cairo-based senior iOS engineer obses
 
 ## Deployment
 Run `npm run build`, then host the `dist/` folder on Vercel, Netlify, GitHub Pages, Cloudflare Pages, or any static-friendly platform. If you use Lovable, publish straight from the Lovable dashboard or by pushing to this repo—no extra configuration required.
+
+### GitHub Pages workflow
+1. Push to `main` (or trigger the workflow manually) and let `.github/workflows/deploy.yml` build and publish to the `github-pages` environment.
+2. In repo settings → Pages, pick **GitHub Actions** as the source.
+3. The action automatically copies `dist/index.html` to `dist/404.html`, making React Router work even when refreshing deep links like `/projects`.
+4. The Vite `base` is set to `./`, so assets resolve correctly no matter which `/username/repo` path GitHub Pages assigns.

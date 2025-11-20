@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "node index.js",
     "dev": "vite",
     "build": "vite build",
     "postbuild": "node scripts/create-gh-404.cjs",
