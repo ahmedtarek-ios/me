@@ -1,9 +1,9 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import profileData from "@/data/profile.json";
 import { ExternalLink, Star, ArrowLeft, ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import {
   Dialog,
@@ -16,6 +16,8 @@ import {
 export default function Projects() {
   const [selectedProject, setSelectedProject] = useState<any>(null);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const projectsSectionRef = useRef<HTMLDivElement>(null);
+  const location = useLocation();
 
   // Sort projects: VIP first, then by id
   const sortedProjects = [...profileData.project].sort((a: any, b: any) => {
@@ -46,6 +48,15 @@ export default function Projects() {
     }
   };
 
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "auto" });
+    return () => {
+      if (projectsSectionRef.current) {
+        projectsSectionRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    };
+  }, [location.pathname]);
+
   return (
     <div className="min-h-screen bg-gradient-hero">
       {/* Header */}
@@ -63,7 +74,7 @@ export default function Projects() {
       </header>
 
       {/* Projects Grid */}
-      <div className="container max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
+      <div ref={projectsSectionRef} className="container max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
         <div className="text-center mb-8 sm:mb-12">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 bg-gradient-primary bg-clip-text text-transparent">
             All Projects
