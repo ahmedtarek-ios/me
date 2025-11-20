@@ -2,14 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ahmedtarek-ios.github.io/me/</loc>
-    <lastmod>2025-01-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2024-12-29</lastmod>
   </url>
   <url>
     <loc>https://ahmedtarek-ios.github.io/me/projects</loc>
-    <lastmod>2025-01-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2024-12-29</lastmod>
   </url>
 </urlset>
