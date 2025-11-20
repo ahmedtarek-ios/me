@@ -80,4 +80,4 @@ Run `npm run build`, then host the `dist/` folder on Vercel, Netlify, GitHub Pag
 1. Push to `main` (or trigger the workflow manually) and let `.github/workflows/deploy.yml` build and publish to the `github-pages` environment.
 2. In repo settings → Pages, pick **GitHub Actions** as the source.
 3. The action automatically copies `dist/index.html` to `dist/404.html`, making React Router work even when refreshing deep links like `/projects`.
-4. The Vite `base` is set to `./`, so assets resolve correctly no matter which `/username/repo` path GitHub Pages assigns.
+4. During GitHub Actions builds, Vite inspects `GITHUB_REPOSITORY` to set `base` (and React Router `basename`) to `/<repo-name>/`, so every navigation and asset request works under `https://username.github.io/<repo-name>/`.
