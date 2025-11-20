@@ -3,6 +3,12 @@ import profileData from "@/data/profile.json";
 
 export const SEOHead = () => {
   useEffect(() => {
+    // Add Google Site Verification meta
+    const verificationMeta = document.createElement("meta");
+    verificationMeta.name = "google-site-verification";
+    verificationMeta.content = "tkTitvHxGW1zlwNxYGQj9fRPh559WEnErUBXUmtkHDk";
+    document.head.appendChild(verificationMeta);
+
     // Add JSON-LD structured data
     const socialAccounts = profileData.profile.social_accounts || [];
     const githubAccount = socialAccounts.find((acc: any) => acc.name.toLowerCase() === 'github');
@@ -47,6 +53,7 @@ export const SEOHead = () => {
 
     return () => {
       document.head.removeChild(script);
+      document.head.removeChild(verificationMeta);
     };
   }, []);
 
