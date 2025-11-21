@@ -10,12 +10,12 @@
     "zip_code": "19311",
     "email": "ahmed.tarek.dev@outlook.com",
     "lightmode_pic": {
-      "main_pic": "https://drive.google.com/file/d/1SehB1Hw7tZSS6TTJWLsXeIJ_TA9nIgg4",
-      "sub_pic": "https://drive.google.com/file/d/1c_a_KSFlfoufsUTGFVwflxv7s5xuhPqQ"
+      "main_pic": "https://drive.google.com/thumbnail?id=1SehB1Hw7tZSS6TTJWLsXeIJ_TA9nIgg4",
+      "sub_pic": "https://drive.google.com/thumbnail?id=1c_a_KSFlfoufsUTGFVwflxv7s5xuhPqQ"
     },
     "darkmode_pic": {
-      "main_pic": "https://drive.google.com/file/d/1b9iEnVluwyYO8VYOEct4uuf64G_0c9hI",
-      "sub_pic": "https://drive.google.com/file/d/1V-Z_uqwCkK3AHETJkhDtmEspMc0IQZby"
+      "main_pic": "https://drive.google.com/thumbnail?id=1b9iEnVluwyYO8VYOEct4uuf64G_0c9hI",
+      "sub_pic": "https://drive.google.com/thumbnail?id=1V-Z_uqwCkK3AHETJkhDtmEspMc0IQZby"
     },
     "projects": "25",
     "sm_about": "I am an iOS Developer with a Bachelor of Language and Translation from International College for Language and Commerce. I have self-studied Mobile Application Development at the Russian Culture Center and hold a Diploma in Software Engineering from Cairo University. Passionate about continuous learning, I am always working to expand my knowledge and stay updated with the latest technologies.",
@@ -25,47 +25,47 @@
     "social_accounts": [
       {
         "name": "Linked In",
-        "icon": "https://drive.google.com/file/d/1_R60s9g_Ubtxcl-41cY5_nfPY3AqL5i7",
+        "icon": "https://drive.google.com/thumbnail?id=1_R60s9g_Ubtxcl-41cY5_nfPY3AqL5i7",
         "url": "https://www.linkedin.com/in/darkcatxiii/"
       },
       {
         "name": "Facebook",
-        "icon": "https://drive.google.com/file/d/1gyurCeUu7pnsuxZwZ141CBdwGwXI5MNh",
+        "icon": "https://drive.google.com/thumbnail?id=1gyurCeUu7pnsuxZwZ141CBdwGwXI5MNh",
         "url": "https://www.facebook.com/DarkCat95/"
       },
       {
         "name": "Instagram",
-        "icon": "https://drive.google.com/file/d/1H9N5ukncKvXB3bF3zCgX6DK-fOp_xWrA",
+        "icon": "https://drive.google.com/thumbnail?id=1H9N5ukncKvXB3bF3zCgX6DK-fOp_xWrA",
         "url": "https://www.instagram.com/medoooo_93/"
       },
       {
         "name": "X",
-        "icon": "https://drive.google.com/file/d/1M-lkh9RBVY7SByq8pjD8lIqX9suX0WA9",
+        "icon": "https://drive.google.com/thumbnail?id=1M-lkh9RBVY7SByq8pjD8lIqX9suX0WA9",
         "url": "https://x.com/DarkAhmed"
       },
       {
         "name": "Stackoverflow",
-        "icon": "https://drive.google.com/file/d/1a2KWxYCckKD1L-0yvkxSSuJsAP4IMw_g",
+        "icon": "https://drive.google.com/thumbnail?id=1a2KWxYCckKD1L-0yvkxSSuJsAP4IMw_g",
         "url": "https://stackoverflow.com/users/10052240/a-tarek"
       },
       {
         "name": "Stackexchange",
-        "icon": "https://drive.google.com/file/d/1a2KWxYCckKD1L-0yvkxSSuJsAP4IMw_g",
+        "icon": "https://drive.google.com/thumbnail?id=1a2KWxYCckKD1L-0yvkxSSuJsAP4IMw_g",
         "url": "https://stackexchange.com/users/13922077/a-tarek"
       },
       {
         "name": "Github",
-        "icon": "https://drive.google.com/file/d/1ZEXZd3jNLPTKAVbRbX3fWaujxZQ4i51v",
+        "icon": "https://drive.google.com/thumbnail?id=1ZEXZd3jNLPTKAVbRbX3fWaujxZQ4i51v",
         "url": "https://github.com/DarkCatXIII"
       },
       {
         "name": "Whatsapp",
-        "icon": "https://drive.google.com/file/d/1CalTgrP-tjL_35q90JebdphaiqB_Vo6t",
+        "icon": "https://drive.google.com/thumbnail?id=1CalTgrP-tjL_35q90JebdphaiqB_Vo6t",
         "url": "https://wa.me/+201125661193"
       },
       {
         "name": "Whatsapp Business",
-        "icon": "https://drive.google.com/file/d/19_3RfAfKwiGmPAqGDKCY0E6FcOj7gbjX",
+        "icon": "https://drive.google.com/thumbnail?id=19_3RfAfKwiGmPAqGDKCY0E6FcOj7gbjX",
         "url": "https://wa.me/+201115408161"
       }
     ]
@@ -200,18 +200,18 @@
           "appSubTitle": "Pharmacy",
           "appLink": "https://apps.apple.com/om/app/elezaby/id1528993866",
           "appImages": [
-            "https://drive.google.com/file/d/1wrtlZMCtbEGJh5bfv2A_HS_2CwrCWmOK",
-            "https://drive.google.com/file/d/1zQwRHgbCAqM_wpLTRBPkgcGjYxzxoxK0",
-            "https://drive.google.com/file/d/1rfgVhJPOc4ZozHgxHqyaO2r8cyfEHxR0",
-            "https://drive.google.com/file/d/1ZHkR2P-4zpXPxzLFlo48MVBAtCBmfrX5",
-            "https://drive.google.com/file/d/1bLtAauBCFy5S8obhOiSmNa3lDGOkdVPP",
-            "https://drive.google.com/file/d/1DOhnd34s_97znef5QZQfWihMHDF1YEEX",
-            "https://drive.google.com/file/d/1TxXVB9p9RAW-a13rR5XFosPlNxsgF_K1"
+            "https://drive.google.com/thumbnail?id=1wrtlZMCtbEGJh5bfv2A_HS_2CwrCWmOK",
+            "https://drive.google.com/thumbnail?id=1zQwRHgbCAqM_wpLTRBPkgcGjYxzxoxK0",
+            "https://drive.google.com/thumbnail?id=1rfgVhJPOc4ZozHgxHqyaO2r8cyfEHxR0",
+            "https://drive.google.com/thumbnail?id=1ZHkR2P-4zpXPxzLFlo48MVBAtCBmfrX5",
+            "https://drive.google.com/thumbnail?id=1bLtAauBCFy5S8obhOiSmNa3lDGOkdVPP",
+            "https://drive.google.com/thumbnail?id=1DOhnd34s_97znef5QZQfWihMHDF1YEEX",
+            "https://drive.google.com/thumbnail?id=1TxXVB9p9RAW-a13rR5XFosPlNxsgF_K1"
           ]
         }
       ],
       "description": "El Ezaby pharmacies mobile application is your \"to go\" portal for all your medical, cosmetics, and health needs. <br> <br> El Ezaby pharmacies mobile application offers:<br>- Home Delivery.<br>- Online Payment.<br>- More than 11,000 products.<br>- Detailed products' descriptions.<br>- Online Medical insurance's prescriptions cash out.<br>- Online Products' availability checking.<br>- Scanning the product's bar code from your mobile's camera to make sure it's available.<br>Download the biggest pharmaceutical mobile application, and enjoy the promo codes and gifts.",
-      "mainImage": "https://drive.google.com/file/d/1xrQn3BPG15mUwDdb0k-N4KcAP_jbKwtn",
+      "mainImage": "https://drive.google.com/thumbnail?id=1xrQn3BPG15mUwDdb0k-N4KcAP_jbKwtn",
       "technology": [
         {
           "logo": "assets/img/skill/SwiftUI.svg",
@@ -238,16 +238,16 @@
           "appSubTitle": "Your Meds, Your Health",
           "appLink": "https://apps.apple.com/us/app/wayak-%D9%88%D9%8A%D8%A7%D9%83/id1534877152",
           "appImages": [
-            "https://drive.google.com/file/d/1VjlS87h2vGjn00EF8MwZKeq3nr4xWlUa",
-            "https://drive.google.com/file/d/1J70nCO1VPyH7oC6s8YNZO6GvxZfma5-5",
-            "https://drive.google.com/file/d/1_8yI5cl5fowDl8vlF8gdchTLb5flE1bD",
-            "https://drive.google.com/file/d/1dy5PkLL0iNuuQOOc7JrQny_ELdmo1QB3",
-            "https://drive.google.com/file/d/1h9EufTMWhowK3dAH2yut5DwBn0rdolXX"
+            "https://drive.google.com/thumbnail?id=1VjlS87h2vGjn00EF8MwZKeq3nr4xWlUa",
+            "https://drive.google.com/thumbnail?id=1J70nCO1VPyH7oC6s8YNZO6GvxZfma5-5",
+            "https://drive.google.com/thumbnail?id=1_8yI5cl5fowDl8vlF8gdchTLb5flE1bD",
+            "https://drive.google.com/thumbnail?id=1dy5PkLL0iNuuQOOc7JrQny_ELdmo1QB3",
+            "https://drive.google.com/thumbnail?id=1h9EufTMWhowK3dAH2yut5DwBn0rdolXX"
           ]
         }
       ],
       "description": "Healthcare Service Platform<br>Wayak is an innovative mobile application designed to simplify healthcare management while reducing costs. As an iOS developer, I contributed to building and optimizing an app that unifies multiple healthcare services, providing users with a seamless experience for managing prescriptions, consultations, and medical services.<br>Key Features Developed:<br>• Medication Delivery Service: Integrated a feature for free home delivery of prescribed medications, with savings up to 20%.<br>•  Easy Ordering System: Implemented search functionality for medications by name, category, or prescription upload, streamlining the ordering process.<br>•  Unlimited Medical Consultations: Developed a system for users to access free, unlimited medical consultations via the app.<br>•  Wayak Card Discounts: Integrated a digital card offering users up to 40% savings at trusted medical centers and labs.<br>•  User Experience Optimization: Focused on intuitive UI/UX design and efficient app performance to enhance user engagement and satisfaction.<br>This project highlights my proficiency in mobile app development, UI/UX design, and integrating third-party services to create a comprehensive and cost-effective healthcare solution.",
-      "mainImage": "https://drive.google.com/file/d/16KkussPYLisinb5tm5dj0MxfQumS07SC",
+      "mainImage": "https://drive.google.com/thumbnail?id=16KkussPYLisinb5tm5dj0MxfQumS07SC",
       "technology": [
         {
           "logo": "assets/img/skill/Swift.svg",
@@ -274,18 +274,18 @@
           "appSubTitle": "CRM Chat System",
           "appLink": "https://apps.apple.com/eg/app/awfar-chat/id6448908667",
           "appImages": [
-            "https://drive.google.com/file/d/1_DQTaIzZj0EH5AGO619_cPuQtmJBnZLy",
-            "https://drive.google.com/file/d/175z1i8wQhlt3R3b_XRj8npiMrus-ywV4",
-            "https://drive.google.com/file/d/1QzoBEO2xEln4ozeKYzo4jltGOSraOgo1",
-            "https://drive.google.com/file/d/1yIBl0y-Apkk0P99I3Msyr8-M-B0zWa5c",
-            "https://drive.google.com/file/d/1ciuZFXW1FQjeX4TvIveOkM354xGJfApF",
-            "https://drive.google.com/file/d/1CQTRVdxj611EBtu-sT31a3HGPpgVLC85",
-            "https://drive.google.com/file/d/17kRtiMx_VrLhsZU9nqFuPa1ngBuzovoy"
+            "https://drive.google.com/thumbnail?id=1_DQTaIzZj0EH5AGO619_cPuQtmJBnZLy",
+            "https://drive.google.com/thumbnail?id=175z1i8wQhlt3R3b_XRj8npiMrus-ywV4",
+            "https://drive.google.com/thumbnail?id=1QzoBEO2xEln4ozeKYzo4jltGOSraOgo1",
+            "https://drive.google.com/thumbnail?id=1yIBl0y-Apkk0P99I3Msyr8-M-B0zWa5c",
+            "https://drive.google.com/thumbnail?id=1ciuZFXW1FQjeX4TvIveOkM354xGJfApF",
+            "https://drive.google.com/thumbnail?id=1CQTRVdxj611EBtu-sT31a3HGPpgVLC85",
+            "https://drive.google.com/thumbnail?id=17kRtiMx_VrLhsZU9nqFuPa1ngBuzovoy"
           ]
         }
       ],
       "description": "Awfar Customer Engagement Platform – the ultimate solution for streamlining customer interactions and enhancing engagement with your business. Awfar Chat empowers businesses to efficiently manage and connect website and mobile application chats, all in one easy-to-use platform.<br>Key Features:<br>1. Seamless Chat Management:* Awfar Chat brings together chats from your website and mobile application into a single, unified dashboard. Stay connected with your customers in real-time and never miss a conversation again.<br>2. Multi-Channel Communication:* Engage with your customers across more than 10 online communication channels, all from one place. Connect through WhatsApp, Facebook, Instagram messages, and more, providing a unified experience for your customers.<br>3. Unlimited Data Insights:* Awfar Chat's comprehensive data management allows you to harness the power of customer data. Track and analyze customer interactions, enabling you to make data-driven decisions for your business.<br>4. Personalized Customer Campaigns:* Tailor your messages to specific customer segments and interests. Create personalized campaigns for both new and returning customers to enhance their experience and boost brand loyalty.<br>5. Automated Chatbot Support:* Integrate chatbots into your interactions to efficiently handle frequently asked questions and provide immediate responses, even outside regular business hours.<br>6. Dynamic Chat Distribution:* Assign chats to employees, departments, or branches automatically, optimizing workload distribution and ensuring timely responses to your customers.<br>7. E-Commerce on WhatsApp:* Showcase your products and facilitate seamless purchasing experiences within the app through our E-Commerce feature on WhatsApp.<br>8. Real-Time Employee Performance Tracking:* Monitor employee performance, track response times, and optimize productivity with Awfar Chat's performance monitoring tools.<br>9. Secure User Accounts:* Ensure the safety of your data with individual user accounts, allowing businesses to manage access to the platform securely.<br>10. Detailed Analytics and Reports:* Access a wide range of detailed reports and analytics to measure your team's efficiency, customer satisfaction, and business growth.<br>Awfar Chat is your go-to customer engagement platform that ensures effortless management of customer communications. As a Software-as-a-Service (SaaS) platform, we prioritize your business's success by providing cutting-edge technology solutions without any paid content or subscriptions.<br>Experience the power of Awfar Chat and discover a new era of customer engagement and seamless communication. Download now and revolutionize the way you interact with your customers!",
-      "mainImage": "https://drive.google.com/file/d/1uR5zqx74webcPbIG-Opy9hv85h9iz9oC",
+      "mainImage": "https://drive.google.com/thumbnail?id=1uR5zqx74webcPbIG-Opy9hv85h9iz9oC",
       "technology": [
         {
           "logo": "assets/img/skill/SwiftUI.svg",
@@ -312,15 +312,15 @@
           "appSubTitle": "TEBCOM - Doctor",
           "appLink": "https://apps.apple.com/eg/app/tebcom-doctor/id1579279719",
           "appImages": [
-            "https://drive.google.com/file/d/1K9fbgZ92DnxMRL8QkoMvQI7T2PMNu5Lq",
-            "https://drive.google.com/file/d/1guoJHo1I_t1px0gTWtejG8e_xaVAsIsX",
-            "https://drive.google.com/file/d/12wyFxsO2KA-jbrGALyVlVKNcfpjkPmVR",
-            "https://drive.google.com/file/d/1nd7TQr0Z4UQjF8IgWKEzNSteJtJN5Xmy",
-            "https://drive.google.com/file/d/1uZjrt7nCo8y4ONCX-N4XdtPu5-HlXtKx",
-            "https://drive.google.com/file/d/1ajBoPTe-K9hnnZ9BTy_Wqxn9MVdviVyA",
-            "https://drive.google.com/file/d/1L64X5wID8Wyb0L2fIrBiIODN5DlzpLua",
-            "https://drive.google.com/file/d/1b1_vOkVLetcYiXA2ndgBzdek0izAHFe3",
-            "https://drive.google.com/file/d/1R74cV3QhpRFPSFieO1FCqyeRDWMwa-iH"
+            "https://drive.google.com/thumbnail?id=1K9fbgZ92DnxMRL8QkoMvQI7T2PMNu5Lq",
+            "https://drive.google.com/thumbnail?id=1guoJHo1I_t1px0gTWtejG8e_xaVAsIsX",
+            "https://drive.google.com/thumbnail?id=12wyFxsO2KA-jbrGALyVlVKNcfpjkPmVR",
+            "https://drive.google.com/thumbnail?id=1nd7TQr0Z4UQjF8IgWKEzNSteJtJN5Xmy",
+            "https://drive.google.com/thumbnail?id=1uZjrt7nCo8y4ONCX-N4XdtPu5-HlXtKx",
+            "https://drive.google.com/thumbnail?id=1ajBoPTe-K9hnnZ9BTy_Wqxn9MVdviVyA",
+            "https://drive.google.com/thumbnail?id=1L64X5wID8Wyb0L2fIrBiIODN5DlzpLua",
+            "https://drive.google.com/thumbnail?id=1b1_vOkVLetcYiXA2ndgBzdek0izAHFe3",
+            "https://drive.google.com/thumbnail?id=1R74cV3QhpRFPSFieO1FCqyeRDWMwa-iH"
           ]
         },
         {
@@ -328,20 +328,20 @@
           "appSubTitle": "TEBCOM",
           "appLink": "https://apps.apple.com/eg/app/tebcom/id1579304069",
           "appImages": [
-            "https://drive.google.com/file/d/1B2M06RU0lyDrT7LfjDtVAegZ4UW7jXyc",
-            "https://drive.google.com/file/d/13Wxw4AsefI5WRK5kjiWdn0SFfflcO1qm",
-            "https://drive.google.com/file/d/1kZXXqyrMMaKNyQijF_qTQqVd3neAEA6U",
-            "https://drive.google.com/file/d/1ZeFy02CZo4PIoKw3tHD2kRqfjJUk5LJf",
-            "https://drive.google.com/file/d/1kloIqdLjbUFkbjWYeoJFoDWbsIzbSUAc",
-            "https://drive.google.com/file/d/1H2FJexnzKukwkjT04FXtvUPsYuZZsmIy",
-            "https://drive.google.com/file/d/1AZtGCZZQl6ayurKT-_9vyezi9mFrLiLd",
-            "https://drive.google.com/file/d/1GXnnYIAOnnlkvTgT3zcMfmBiud1g2U4h",
-            "https://drive.google.com/file/d/1ZTyYz8MUogxOi0Vj8z2ADD1P_KAkzQ28"
+            "https://drive.google.com/thumbnail?id=1B2M06RU0lyDrT7LfjDtVAegZ4UW7jXyc",
+            "https://drive.google.com/thumbnail?id=13Wxw4AsefI5WRK5kjiWdn0SFfflcO1qm",
+            "https://drive.google.com/thumbnail?id=1kZXXqyrMMaKNyQijF_qTQqVd3neAEA6U",
+            "https://drive.google.com/thumbnail?id=1ZeFy02CZo4PIoKw3tHD2kRqfjJUk5LJf",
+            "https://drive.google.com/thumbnail?id=1kloIqdLjbUFkbjWYeoJFoDWbsIzbSUAc",
+            "https://drive.google.com/thumbnail?id=1H2FJexnzKukwkjT04FXtvUPsYuZZsmIy",
+            "https://drive.google.com/thumbnail?id=1AZtGCZZQl6ayurKT-_9vyezi9mFrLiLd",
+            "https://drive.google.com/thumbnail?id=1GXnnYIAOnnlkvTgT3zcMfmBiud1g2U4h",
+            "https://drive.google.com/thumbnail?id=1ZTyYz8MUogxOi0Vj8z2ADD1P_KAkzQ28"
           ]
         }
       ],
       "description": "Developed TEBCOM, a comprehensive Closed-Loop Tele-Consultation solution with two tailored schemes:<br>1.  TEBCOM for Patients: Designed for patients to easily access professional healthcare services from anywhere.<br>2.  TEBCOM - Doctor for Doctors: Built to help doctors manage virtual consultations and provide one-on-one care seamlessly.<br>The apps enable virtual clinics, breaking barriers to healthcare access across the globe. Integrated with .NET, SignalR for real-time communication, and Twilio for secure video and audio calls. Developed using Swift and the MVP architecture, this solution ensures doctors can run their online practices as efficiently as their physical ones, delivering professional care while maintaining quality and reliability.",
-      "mainImage": "https://drive.google.com/file/d/1iKggvBz0REYnXl7fKLUiUkOumyzGVmei",
+      "mainImage": "https://drive.google.com/thumbnail?id=1iKggvBz0REYnXl7fKLUiUkOumyzGVmei",
       "technology": [
         {
           "logo": "assets/img/skill/Swift.svg",
@@ -368,11 +368,11 @@
           "appSubTitle": "Pharmacy",
           "appLink": "https://apps.apple.com/us/app/el-khabiry/id1660545969",
           "appImages": [
-            "https://drive.google.com/file/d/1jsvBHtManLXScDBX7O9BjyRUiSIZ2Qf7",
-            "https://drive.google.com/file/d/1vjXlw3WBeSKsoTiRHvMPhWd3wShVEpxm",
-            "https://drive.google.com/file/d/1dp-oJ8jc1vQT9eE_rChSPhOoiba78qFu",
-            "https://drive.google.com/file/d/1jziACvBHmh7RhYeTxbpxobBukgUJO4OD",
-            "https://drive.google.com/file/d/1EUkoYAXUt5Go7HPMKon7qsXx6-7hU1zj"
+            "https://drive.google.com/thumbnail?id=1jsvBHtManLXScDBX7O9BjyRUiSIZ2Qf7",
+            "https://drive.google.com/thumbnail?id=1vjXlw3WBeSKsoTiRHvMPhWd3wShVEpxm",
+            "https://drive.google.com/thumbnail?id=1dp-oJ8jc1vQT9eE_rChSPhOoiba78qFu",
+            "https://drive.google.com/thumbnail?id=1jziACvBHmh7RhYeTxbpxobBukgUJO4OD",
+            "https://drive.google.com/thumbnail?id=1EUkoYAXUt5Go7HPMKon7qsXx6-7hU1zj"
           ]
         },
         {
@@ -380,10 +380,10 @@
           "appSubTitle": "Pharmacy",
           "appLink": "https://apps.apple.com/us/app/mohammed-abd-el-qader/id6469045125",
           "appImages": [
-            "https://drive.google.com/file/d/18cIZXBXV6VN1oV3FNt1F9smeGWYBmVXg",
-            "https://drive.google.com/file/d/1qcGShdnF5MQhXrJHQJxs4N47fxV2nEGK",
-            "https://drive.google.com/file/d/1GmLiiYSHBYW-0Mdq3K4nQRnCAmr85bgW",
-            "https://drive.google.com/file/d/1ZunmBpBahcikYMRN0cC361ql_H1kT7Wr"
+            "https://drive.google.com/thumbnail?id=18cIZXBXV6VN1oV3FNt1F9smeGWYBmVXg",
+            "https://drive.google.com/thumbnail?id=1qcGShdnF5MQhXrJHQJxs4N47fxV2nEGK",
+            "https://drive.google.com/thumbnail?id=1GmLiiYSHBYW-0Mdq3K4nQRnCAmr85bgW",
+            "https://drive.google.com/thumbnail?id=1ZunmBpBahcikYMRN0cC361ql_H1kT7Wr"
           ]
         },
         {
@@ -391,16 +391,16 @@
           "appSubTitle": "Pharmacy",
           "appLink": "https://apps.apple.com/us/app/shams-pharmacy-%D8%B5%D9%8A%D8%AF%D9%84%D9%8A%D8%A9-%D8%B4%D9%85%D8%B3/id6469420046",
           "appImages": [
-            "https://drive.google.com/file/d/1hlM0JK6I4U6IiswLTrhsMW3Ji5bQniLo",
-            "https://drive.google.com/file/d/1DQPb8ljFaHMZ7K__jkgSagi9-953CXZ-",
-            "https://drive.google.com/file/d/1RdAJFrZZXr-XcR_-Jy5FTK8fiAgiEBJT",
-            "https://drive.google.com/file/d/1-kZzocLoeDcxdSUK9FwlFkWgvx_puC_a",
-            "https://drive.google.com/file/d/1ZmhpAlXzkh-1apxv0ojQjdiuMJ9cVVJL"
+            "https://drive.google.com/thumbnail?id=1hlM0JK6I4U6IiswLTrhsMW3Ji5bQniLo",
+            "https://drive.google.com/thumbnail?id=1DQPb8ljFaHMZ7K__jkgSagi9-953CXZ-",
+            "https://drive.google.com/thumbnail?id=1RdAJFrZZXr-XcR_-Jy5FTK8fiAgiEBJT",
+            "https://drive.google.com/thumbnail?id=1-kZzocLoeDcxdSUK9FwlFkWgvx_puC_a",
+            "https://drive.google.com/thumbnail?id=1ZmhpAlXzkh-1apxv0ojQjdiuMJ9cVVJL"
           ]
         }
       ],
       "description": "Awfar E-commerce Project is an innovative, template-based mobile application designed to streamline the online presence of various businesses, including pharmacies, stationery stores, supermarkets, and more. By offering a versatile platform, it empowers businesses to launch their e-commerce services with minimal effort and maximum customization.<br>1.  Customizable Templates: The app features modular templates that can be tailored to suit the branding and operational requirements of different business types.<br>2.  User-Friendly Interface: It provides an intuitive, easy-to-navigate interface for customers, enhancing their shopping experience.<br>3.  Dynamic Product Catalogs: Businesses can showcase products through rich, categorized catalogs that support images, descriptions, and prices.<br>4.  Inventory Management: Real-time inventory tracking ensures accuracy in stock availability.<br>5.  Secure Payment Gateways: The app supports multiple payment methods, including cards, e-wallets, and cash on delivery.<br>6.  Multi-Language and Multi-Currency: It caters to global and local audiences with flexible language and currency options.<br>7.  Order Management: Businesses can manage orders efficiently with features like order tracking, notifications, and history logs.<br>8.  Push Notifications: The app enables direct customer engagement with promotional updates, offers, and reminders.<br>9.  Custom Branding: Businesses can personalize the app’s design, including colors, logos, and themes, to reflect their identity.<br>10.  Cross-Platform Compatibility: The app is accessible on both Android and iOS platforms.<br>11.  Responsive Design: Ensures seamless operation on various devices, including smartphones and tablets.<br>12.  Analytics Dashboard: Built-in analytics help businesses monitor performance, track sales, and identify trends.<br>13.  Scalable Architecture: Designed to grow with businesses, the app handles increasing user and product volumes effectively.<br>14.  Integration Options: Compatible with external systems such as ERPs or CRMs for enhanced operational capabilities.<br>15.  Quick Deployment: Ready-to-deploy templates reduce development time, allowing businesses to go live faster.<br>16.  Customer Accounts: Users can create accounts for a personalized shopping experience, including wishlists and order histories.<br>17.  Search Functionality: Advanced search and filter options make product discovery effortless.<br>18.  Offline Support: Limited offline functionality ensures continuity during network interruptions.<br>19.  Cost-Effective Solution: An affordable alternative to building custom e-commerce platforms from scratch.<br>20.  Ideal for SMEs and Startups: Provides a professional, scalable, and user-friendly solution for businesses looking to establish or expand their online presence.<br>The Awfar E-commerce Project is a practical, feature-rich platform enabling businesses of all sizes to thrive in the digital marketplace.",
-      "mainImage": "https://drive.google.com/file/d/1VF5z3Wv5L18sk42c85BPfH0SRo2tajDO",
+      "mainImage": "https://drive.google.com/thumbnail?id=1VF5z3Wv5L18sk42c85BPfH0SRo2tajDO",
       "technology": [
         {
           "logo": "assets/img/skill/SwiftUI.svg",
@@ -427,17 +427,17 @@
           "appSubTitle": "Design",
           "appLink": "https://www.figma.com/design/S5UyaAhl6UxBbu1sYMTqvs/Shopper?node-id=66-2&t=dv9BgMzODumpNTR4-0",
           "appImages": [
-            "https://drive.google.com/file/d/12YS9H63dBS3gRGp8GHxBHBUTj3GcEj7N",
-            "https://drive.google.com/file/d/1tRQ8tYn8U5vPAthT4ZcwFrmSUAit98JQ",
-            "https://drive.google.com/file/d/1pZuwrg00o_trQFLuZpKUUJjPL0lmCG83",
-            "https://drive.google.com/file/d/1WCzO5yZOwLC7cukxIp5rVuCUa4zMiUO_",
-            "https://drive.google.com/file/d/137L-UQOM2gxtNk1qH3LRe7LAvpY3Ol4L",
-            "https://drive.google.com/file/d/1kJGyL49Va2rDE0GPEixYpMIWAVfM0Dyv"
+            "https://drive.google.com/thumbnail?id=12YS9H63dBS3gRGp8GHxBHBUTj3GcEj7N",
+            "https://drive.google.com/thumbnail?id=1tRQ8tYn8U5vPAthT4ZcwFrmSUAit98JQ",
+            "https://drive.google.com/thumbnail?id=1pZuwrg00o_trQFLuZpKUUJjPL0lmCG83",
+            "https://drive.google.com/thumbnail?id=1WCzO5yZOwLC7cukxIp5rVuCUa4zMiUO_",
+            "https://drive.google.com/thumbnail?id=137L-UQOM2gxtNk1qH3LRe7LAvpY3Ol4L",
+            "https://drive.google.com/thumbnail?id=1kJGyL49Va2rDE0GPEixYpMIWAVfM0Dyv"
           ]
         }
       ],
       "description": "Awfar Connect is an integrated on-demand delivery platform that provides delivery, shipping and logistics companies, and the organization of all deliveries and shipments delivering products and financial transactions to its customers safely and in a very short period of time through a network of well-trained staff To provide the highest quality and professional customer service.<br>Time is precious and Over Connect is the best solution to avoid delay delivery that may be caused by traffic congestion or remote destinations because the better contact will combine no delivery person but the delivery team to carry out the delivery task in minutes",
-      "mainImage": "https://drive.google.com/file/d/18q9voZu5xX3kts5Pj9qGeyJ1xTf6EWeR",
+      "mainImage": "https://drive.google.com/thumbnail?id=18q9voZu5xX3kts5Pj9qGeyJ1xTf6EWeR",
       "technology": [
         {
           "logo": "assets/img/skill/figma.svg",
@@ -494,16 +494,16 @@
           "appSubTitle": "Design",
           "appLink": "https://www.figma.com/design/0p2dlgtTmLN8b98q7fKGbd/la-maison?node-id=0-1&p=f&t=Oe5u9rYOI2ZvLAfY-0",
           "appImages": [
-            "https://drive.google.com/file/d/1F_2s7KWqamIcztfepBQEJaRJDqlpI2ku",
-            "https://drive.google.com/file/d/1_-eBuj8QxPQPKza1suJxLm9RsaNOyURS",
-            "https://drive.google.com/file/d/1ZvvhEl4Gz9US_dfIxeM9S0-PyjoPGVN7",
-            "https://drive.google.com/file/d/14IPVSLgpHIW1bBPJch6KgX7YWww7oBaI",
-            "https://drive.google.com/file/d/1tmk2v_VH-Mk2pu0c0AxNLQi0EGLzEu7j",
-            "https://drive.google.com/file/d/1fu7Jdi3KTe2HDVE_rgNIhmkKFRhcO1W2",
-            "https://drive.google.com/file/d/1xI17iYjOv-1e0d7OQX-91s1OAeJJxq0C",
-            "https://drive.google.com/file/d/1Iis0FbsTthS0EB8EajiGNiWtK3rq4ewh",
-            "https://drive.google.com/file/d/1SYYbCHsmK0oJhoZUtyFFuHf1NACRI0-v",
-            "https://drive.google.com/file/d/1iE-NlemtYYpy83GTHNRGgtFqa2jxEjdp"
+            "https://drive.google.com/thumbnail?id=1F_2s7KWqamIcztfepBQEJaRJDqlpI2ku",
+            "https://drive.google.com/thumbnail?id=1_-eBuj8QxPQPKza1suJxLm9RsaNOyURS",
+            "https://drive.google.com/thumbnail?id=1ZvvhEl4Gz9US_dfIxeM9S0-PyjoPGVN7",
+            "https://drive.google.com/thumbnail?id=14IPVSLgpHIW1bBPJch6KgX7YWww7oBaI",
+            "https://drive.google.com/thumbnail?id=1tmk2v_VH-Mk2pu0c0AxNLQi0EGLzEu7j",
+            "https://drive.google.com/thumbnail?id=1fu7Jdi3KTe2HDVE_rgNIhmkKFRhcO1W2",
+            "https://drive.google.com/thumbnail?id=1xI17iYjOv-1e0d7OQX-91s1OAeJJxq0C",
+            "https://drive.google.com/thumbnail?id=1Iis0FbsTthS0EB8EajiGNiWtK3rq4ewh",
+            "https://drive.google.com/thumbnail?id=1SYYbCHsmK0oJhoZUtyFFuHf1NACRI0-v",
+            "https://drive.google.com/thumbnail?id=1iE-NlemtYYpy83GTHNRGgtFqa2jxEjdp"
           ]
         },
         {
@@ -514,7 +514,7 @@
         }
       ],
       "description": "Developed La Maison, a template app designed to streamline the management of residential compounds. The app facilitates communication between residents and administration, provides access to compound services, and manages compound news and resident requests.<br>Key features include QR code access for residents to securely enter their homes and QR code invitations for visitors, enhancing compound security. Built using Swift, with Alamofire for networking, and structured with the MVP architecture, the app is seamlessly integrated with PHP API services.",
-      "mainImage": "https://drive.google.com/file/d/1epH_lsD4GkS3Uio_zglV1QGww_ZjoT0M",
+      "mainImage": "https://drive.google.com/thumbnail?id=1epH_lsD4GkS3Uio_zglV1QGww_ZjoT0M",
       "technology": [
         {
           "logo": "assets/img/skill/Swift.svg",
@@ -907,8 +907,8 @@
   },
   "config": {
     "logo": {
-      "light": "https://drive.google.com/file/d/1rURHcQGhOx7hZy_aYds2wA_hKzmpFt0E",
-      "dark": "https://drive.google.com/file/d/1o0uLlZZMoDd_uBZIOF0tqX-aRxX19Y-J"
+      "light": "https://drive.google.com/thumbnail?id=1rURHcQGhOx7hZy_aYds2wA_hKzmpFt0E",
+      "dark": "https://drive.google.com/thumbnail?id=1o0uLlZZMoDd_uBZIOF0tqX-aRxX19Y-J"
     },
     "background": {
       "light": "#F5F5F5",
