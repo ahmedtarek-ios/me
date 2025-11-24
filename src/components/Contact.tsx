@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Mail, MapPin, MessageCircle, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -16,6 +16,29 @@ const GOOGLE_MAPS_API_KEY = "AIzaSyCSE1FmtKeqdovmPDpbTABzwLHED4WazQ8";
 const EMAILJS_SERVICE_ID = "service_yljwisr";
 const EMAILJS_TEMPLATE_ID = "template_uhwm5nx";
 const EMAILJS_PUBLIC_KEY = "VAemlW7kSM9ZJv3Mk";
+const EMAILJS_API_URL = "https://api.emailjs.com/api/v1.0/email/send";
+const EMAILJS_LIB_VERSION = "3.2.0";
+
+const sendEmail = async (templateParams: Record<string, string>) => {
+  const response = await fetch(EMAILJS_API_URL, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      lib_version: EMAILJS_LIB_VERSION,
+      user_id: EMAILJS_PUBLIC_KEY,
+      service_id: EMAILJS_SERVICE_ID,
+      template_id: EMAILJS_TEMPLATE_ID,
+      template_params: templateParams,
+    }),
+  });
+
+  if (!response.ok) {
+    const errorText = await response.text();
+    throw new Error(errorText || "EmailJS request failed");
+  }
+};
 
 // Form validation schema
 const contactSchema = z.object({
@@ -37,12 +60,6 @@ const contactSchema = z.object({
     .max(1000, { message: "Message must be less than 1000 characters" })
 });
 
-declare global {
-  interface Window {
-    emailjs: any;
-  }
-}
-
 export const Contact = () => {
   const profile = profileData.profile;
   const [showEmailForm, setShowEmailForm] = useState(false);
@@ -55,13 +72,6 @@ export const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [errors, setErrors] = useState<Record<string, string>>({});
   const { ref, isVisible } = useScrollAnimation();
-
-  // Initialize EmailJS
-  useEffect(() => {
-    if (window.emailjs) {
-      window.emailjs.init(EMAILJS_PUBLIC_KEY);
-    }
-  }, []);
 
   // Cairo, Egypt coordinates
   const center = { lat: 29.990091, lng: 31.288479 };
@@ -120,11 +130,6 @@ export const Contact = () => {
         return;
       }
     }
-    
-    if (!window.emailjs) {
-      toast.error("Email service not loaded. Please refresh the page.");
-      return;
-    }
 
     setIsSubmitting(true);
 
@@ -132,15 +137,12 @@ export const Contact = () => {
       const templateParams = {
         name: formData.name,
         email: formData.email,
+        subject: formData.subject,
         message: formData.message,
         date: new Date().toLocaleString()
       };
 
-      await window.emailjs.send(
-        EMAILJS_SERVICE_ID,
-        EMAILJS_TEMPLATE_ID,
-        templateParams
-      );
+      await sendEmail(templateParams);
 
       toast.success("Message sent successfully!");
       setFormData({
