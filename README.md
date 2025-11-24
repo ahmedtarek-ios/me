@@ -24,7 +24,7 @@ I’m Ahmed—“Medo” to most teams—a Cairo-based senior iOS engineer obses
 ## Toolbox
 - **Frontend & Runtime:** React 18, TypeScript, Vite, React Router DOM, TanStack Query, next-themes.
 - **Design System:** Tailwind CSS with custom gradients/tokens, shadcn/ui primitives, Lucide icons, Embla carousel, Sonner toasts.
-- **Maps & Messaging:** `@react-google-maps/api`, EmailJS, WhatsApp deep links.
+- **Maps & Messaging:** Google Maps iframe embed, EmailJS, WhatsApp deep links.
 - **Quality:** ESLint 9, TypeScript strict configs, componentized UI kit in `src/components/ui`.
 
 ## Explore the Codebase
@@ -63,7 +63,7 @@ I’m Ahmed—“Medo” to most teams—a Cairo-based senior iOS engineer obses
 
 ## Integrations & Keys
 - **EmailJS:** `src/components/Contact.tsx` stores service/template/public IDs inline. Swap them for your own keys (or move them to env variables before deploying).
-- **Google Maps:** Replace `GOOGLE_MAPS_API_KEY` and the `center` coordinates in `Contact.tsx` for your city.
+- **Google Maps:** Update the `MAP_EMBED_URL` in `src/components/Contact.tsx` to point at your city or a different map provider.
 - **Social & WhatsApp:** Numbers/links live in `profile.social_accounts`, powering floating buttons and the footer.
 
 ## Resume & Contact

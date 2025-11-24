@@ -5,12 +5,11 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card } from "@/components/ui/card";
 import profileData from "@/data/profile.json";
-import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 import { toast } from "sonner";
 import { z } from "zod";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
-const GOOGLE_MAPS_API_KEY = "AIzaSyCSE1FmtKeqdovmPDpbTABzwLHED4WazQ8";
+const MAP_EMBED_URL = "https://www.google.com/maps?q=29.990091,31.288479&z=13&output=embed";
 
 // EmailJS configuration
 const EMAILJS_SERVICE_ID = "service_yljwisr";
@@ -72,27 +71,6 @@ export const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [errors, setErrors] = useState<Record<string, string>>({});
   const { ref, isVisible } = useScrollAnimation();
-
-  // Cairo, Egypt coordinates
-  const center = { lat: 29.990091, lng: 31.288479 };
-
-  const mapContainerStyle = {
-    width: '100%',
-    height: '100%'
-  };
-
-  const mapOptions = {
-    disableDefaultUI: false,
-    zoomControl: true,
-    streetViewControl: false,
-    mapTypeControl: false,
-    fullscreenControl: true,
-  };
-
-  // Format phone number for WhatsApp (remove + and spaces)
-  const formatWhatsAppNumber = (phone: string) => {
-    return phone.replace(/[^0-9]/g, '');
-  };
 
   const handleWhatsApp = () => {
     window.open('https://wa.me/+201125661193', '_blank');
@@ -307,16 +285,14 @@ export const Contact = () => {
               </form>
             ) : (
               <div className="w-full h-64 sm:h-80 md:h-96 rounded-lg overflow-hidden">
-                <LoadScript googleMapsApiKey={GOOGLE_MAPS_API_KEY}>
-                  <GoogleMap
-                    mapContainerStyle={mapContainerStyle}
-                    center={center}
-                    zoom={13}
-                    options={mapOptions}
-                  >
-                    <Marker position={center} />
-                  </GoogleMap>
-                </LoadScript>
+                <iframe
+                  title="Ahmed Tarek Ahmed location on a map"
+                  src={MAP_EMBED_URL}
+                  className="w-full h-full border-0"
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  allowFullScreen
+                />
               </div>
             )}
           </Card>
