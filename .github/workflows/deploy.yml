@@ -33,6 +33,11 @@ jobs:
 
       - name: Build site
         run: npm run build
+        env:
+          NODE_ENV: production
+
+      - name: Create 404.html
+        run: node scripts/create-gh-404.cjs
 
       - name: Upload production artifacts
         uses: actions/upload-pages-artifact@v3
