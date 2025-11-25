@@ -10,14 +10,12 @@ import { ThemeToggle } from "@/components/ThemeToggle";
 import { ThemeProvider } from "next-themes";
 import { FloatingShareButtons } from "@/components/FloatingShareButtons";
 import { FloatingWhatsApp } from "@/components/FloatingWhatsApp";
-import { SEOHead } from "@/components/SEOHead";
 import { Button } from "@/components/ui/button";
 import profileData from "@/data/profile.json";
 
 const Index = () => {
   return (
     <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-      <SEOHead />
       <div className="relative">
         {/* Theme Toggle - Fixed Position */}
         <div className="fixed top-4 right-4 sm:top-6 sm:right-6 z-50">
