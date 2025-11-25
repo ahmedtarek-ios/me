@@ -10,6 +10,9 @@ export default defineConfig(({ mode }) => ({
     port: 8080,
   },
   base: mode === "production" ? "/me/" : "/",
+  build: {
+    sourcemap: false
+  },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
     alias: {
