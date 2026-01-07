@@ -6,10 +6,12 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Projects from "./pages/Projects";
 import NotFound from "./pages/NotFound";
+import { preloadImages } from "@/components/preloadImages";
 
 const queryClient = new QueryClient();
 
 const App = () => {
+  preloadImages();
   const basePath = import.meta.env.BASE_URL || "/";
 
   return (
