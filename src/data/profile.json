@@ -411,6 +411,63 @@
     },
     {
       "id": 6,
+      "name": "Care App",
+      "slug": "Care-Online-Medical-Platform",
+      "sub_name": "Doctor - Patient",
+      "slogen": "Your Health, Anytime, Anywhere",
+      "clinet": "Wayak",
+      "clinet_site": "https://careapp4u.com/",
+      "position": "Senior iOS Software Engineer",
+      "date": "Nov 2025 - May 2026",
+      "role": "Freelance",
+      "vip": false,
+      "apps": [
+        {
+          "appName": "Care Doctor - كير طبيب",
+          "appSubTitle": "Care Doctor - كير طبيب",
+          "appLink": "https://apps.apple.com/us/app/care-doctor-%D9%83%D9%8A%D8%B1-%D8%B7%D8%A8%D9%8A%D8%A8/id6755743768",
+          "appImages": []
+        },
+        {
+          "appName": "Care - كير",
+          "appSubTitle": "Care - كير",
+          "appLink": "https://apps.apple.com/us/app/care-%D9%83%D9%8A%D8%B1/id6755742268",
+          "appImages": []
+        },
+        {
+          "appName": "Care - Design",
+          "appSubTitle": "Figma Design for Patient & Doctor Apps",
+          "appLink": "https://www.figma.com/design/Bu0m4GlEsqTzxWScCfl4Dk/Care-App?node-id=0-1&t=PlEvQYAJzXPgd4mx-1",
+          "appImages": []
+        }
+      ],
+      "description": "Developed Care, a full-featured telemedicine platform with two dedicated iOS apps built in Swift and SwiftUI using a clean MVI (Model-View-Intent) architecture.<br><br><b>Care for Doctors</b> — Empowers physicians to manage their full clinical workflow digitally: view and manage today's appointments from a live dashboard, conduct video consultations via integrated meeting links, write and manage prescriptions (medications, lab tests, and scans), dictate voice prescriptions via in-app audio recording with VLC-powered playback, request and control access to a patient's full medical history through a secure approval flow, view patient-submitted attachments and notes, add diagnoses and doctor notes, complete or cancel visits, and communicate via real-time chat using WebSocket (Pusher). Doctors can also manage multiple clinic schedules, review their ratings and feedback, and maintain their profile and qualifications.<br><br><b>Care for Patients</b> — Gives patients seamless access to professional healthcare: discover and search doctors by specialty, location, or clinic; book in-clinic or online appointments with payment method selection (cash, credit card, Vodafone Cash, InstaPay, Fawry); upload documents for upcoming visits; join real-time chat sessions with their doctor (supporting text, images, PDFs, audio, and video); rate and review completed consultations. Patients also manage a comprehensive personal health record covering medications, prescriptions, insurance policies, lab tests and scans, allergies, chronic conditions, family history, and smoking status.<br><br><b>Key Technical Highlights</b><br>• Real-time bidirectional chat via PusherSwift WebSocket<br>• Voice prescription recording and playback using MobileVLCKit<br>• Patient medical record access control with request / approval / denial push notification flow<br>• Firebase Cloud Messaging for push notifications and cloud storage<br>• Google Maps and Google Places for location-based doctor discovery<br>• Multiple Egyptian payment gateways (Fawry, InstaPay, Vodafone Cash)<br>• Full Arabic / English localization with RTL layout support<br>• Secure credential storage via Keychain<br>• Alamofire networking with JWT bearer token auth and silent token refresh<br>• Dependency injection via Resolver<br>• Dual-target build (Care / CareD) sharing a single codebase",
+      "mainImage": "https://drive.google.com/thumbnail?id=1AS_HTAmVl1lH9EMmmKnrZS3DrWOoUbMp&sz=w1200",
+      "technology": [
+        {
+          "logo": "assets/img/skill/Swift.svg",
+          "name": "Swift",
+          "percentage": "100%"
+        },
+        {
+          "logo": "assets/img/skill/SwiftUI.svg",
+          "name": "SwiftUI",
+          "percentage": "100%"
+        },
+        {
+          "logo": "assets/img/skill/Firebase.svg",
+          "name": "Firebase",
+          "percentage": "80%"
+        },
+        {
+          "logo": "assets/img/skill/figma.svg",
+          "name": "Figma",
+          "percentage": "100%"
+        }
+      ]
+    },
+    {
+      "id": 7,
       "name": "Awfar Connect",
       "slug": "Awfar-Connect-Delivery-System",
       "sub_name": "Design",
@@ -447,7 +504,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 8,
       "name": "Awfar Chat",
       "slug": "Awfar-Connect-Delivery-System",
       "sub_name": "Website",
@@ -477,7 +534,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 9,
       "name": "La Maison",
       "slug": "La-Maison-Compound-template-app",
       "sub_name": "Compound template app",
@@ -529,7 +586,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 10,
       "name": "Entrepreware - Student",
       "slug": "Entrepreware-Schools-Template-app",
       "sub_name": "Schools Template App",
@@ -559,7 +616,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 11,
       "name": "Edufy - Teachers",
       "slug": "Edufy-Schools-Teacher-app",
       "sub_name": "Schools Teacher App",
@@ -594,7 +651,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 12,
       "name": "QClinic",
       "slug": "QClinic-Medical-Appointments-app",
       "sub_name": "Medical Appointments",
@@ -629,7 +686,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 13,
       "name": "Restaurants",
       "slug": "Awfar-Restaurants-Reservation-app",
       "sub_name": "Reservation",
@@ -659,7 +716,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 14,
       "name": "Enterpreware",
       "slug": "Enterpreware-For-Education-site",
       "sub_name": "Schools",
