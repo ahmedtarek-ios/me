@@ -165,11 +165,11 @@
     {
       "name": "Entrepreware",
       "date": "Feb 2018 - Mars 2020",
-      "position": "Android & iOS Developer",
+      "position": "Software Engineer — Mobile (Android/iOS) & Backend",
       "location": "Maadi",
       "role": "Full-Time",
       "top_shown_as_current_company": false,
-      "todo": "Started as an Android Development intern, gaining hands-on experience through a side project and assisting with the main project. Progressed to contribute to a Spring Boot MVC project, where I designed and implemented a new feature called “Cafeteria” a POS system. <br>Later transitioned to working on the company’s primary iOS Objective-C template project for schools. This multi-scheme project integrated with Spring Boot MVC APIs and a camera system, enabling parents to monitor their children.<br>Finally, contributed to the development of the Edufy app, built with Ionic (Angular+). This app allows teachers to assign homework, track attendance, and manage various classroom activities."
+      "todo": "•Started as an Android Developer Intern, then progressed to delivering bug fixes and new feature development on Android.<br>•Contributed to the Spring Boot MVC backend, resolving defects and implementing new features, including related frontend updates.<br>•Transitioned into iOS development when the role became vacant; first delivered a high-impact fix for APNs push notifications not reaching users, resolving issues in both Spring Boot MVC and iOS (Objective-C).<br>•Built Edufy for Teachers using Ionic (Angular 2+), delivering cross-platform functionality for educators."
     },
     {
       "name": "Entrepreware",
