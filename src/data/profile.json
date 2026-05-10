@@ -432,7 +432,14 @@
           "appName": "Care - كير",
           "appSubTitle": "Care - كير",
           "appLink": "https://apps.apple.com/us/app/care-%D9%83%D9%8A%D8%B1/id6755742268",
-          "appImages": []
+          "appImages": [
+            "https://drive.google.com/thumbnail?id=1Huc-n3lQMFKQ3z7wvxA8rXkeXm9oPcRm&sz=w1200",
+            "https://drive.google.com/thumbnail?id=1TqhW-Og8qihtC7wLWSW17eBIVc8R97GJ&sz=w1200",
+            "https://drive.google.com/thumbnail?id=1ZgosSJn9TFXL0Ein7Nv4eqwLvlXRf3UE&sz=w1200",
+            "https://drive.google.com/thumbnail?id=1fkQ8Kjg-8Jyl5tan8UtxkHzzU_PyFPPx&sz=w1200",
+            "https://drive.google.com/thumbnail?id=1iXcJGaL3SFZcLDcdR88w-KG--7Ep6lar&sz=w1200",
+            "https://drive.google.com/thumbnail?id=1tQm8aOTBvoTRbeuNxJzaLGpuuA96AmdU&sz=w1200"
+          ]
         },
         {
           "appName": "Care - Design",
