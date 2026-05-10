@@ -438,7 +438,19 @@
           "appName": "Care - Design",
           "appSubTitle": "Figma Design for Patient & Doctor Apps",
           "appLink": "https://www.figma.com/design/Bu0m4GlEsqTzxWScCfl4Dk/Care-App?node-id=0-1&t=PlEvQYAJzXPgd4mx-1",
-          "appImages": []
+          "appImages": [
+            "https://drive.google.com/thumbnail?id=17daryB5BYH68OKlJrjv5NODwN8_N4zgo&sz=w1200",
+            "https://drive.google.com/thumbnail?id=1OFtfe4HYly8-YCbIBQz61-hPQWVlfMdV&sz=w1200",
+            "https://drive.google.com/thumbnail?id=1Sz8L9qKzqMo1XMM9UerOUpA62My1zi8p&sz=w1200",
+            "https://drive.google.com/thumbnail?id=1VyrwpE1i2gY_rmH2FEmxay0NZHxO6dlk&sz=w1200",
+            "https://drive.google.com/thumbnail?id=1WzuNBcovl5fqEls9wE_1ZB2q1L3p2yUo&sz=w1200",
+            "https://drive.google.com/thumbnail?id=1ZWDVWuZLAKhYD_vD54GSw1k4DCE0qpU9&sz=w1200",
+            "https://drive.google.com/thumbnail?id=1czfy4pcYhIIV7IhhddNM-ZhvZ-_7Tghb&sz=w1200",
+            "https://drive.google.com/thumbnail?id=1el64LIFHBftji9WKmK8m-kzu3tiPUHYq&sz=w1200",
+            "https://drive.google.com/thumbnail?id=1j1yg8Ht4eesJ5sBqSWkcxsxGF8vieVRc&sz=w1200",
+            "https://drive.google.com/thumbnail?id=1nwIniL9l5tIJtLEQI1fAIjdFgsE5vn1R&sz=w1200",
+            "https://drive.google.com/thumbnail?id=1uOb_IIL94pk6985ofAsybqNhfk3cBY-i&sz=w1200"
+          ]
         }
       ],
       "description": "Developed Care, a full-featured telemedicine platform with two dedicated iOS apps built in Swift and SwiftUI using a clean MVI (Model-View-Intent) architecture.<br><br><b>Care for Doctors</b> — Empowers physicians to manage their full clinical workflow digitally: view and manage today's appointments from a live dashboard, conduct video consultations via integrated meeting links, write and manage prescriptions (medications, lab tests, and scans), dictate voice prescriptions via in-app audio recording with VLC-powered playback, request and control access to a patient's full medical history through a secure approval flow, view patient-submitted attachments and notes, add diagnoses and doctor notes, complete or cancel visits, and communicate via real-time chat using WebSocket (Pusher). Doctors can also manage multiple clinic schedules, review their ratings and feedback, and maintain their profile and qualifications.<br><br><b>Care for Patients</b> — Gives patients seamless access to professional healthcare: discover and search doctors by specialty, location, or clinic; book in-clinic or online appointments with payment method selection (cash, credit card, Vodafone Cash, InstaPay, Fawry); upload documents for upcoming visits; join real-time chat sessions with their doctor (supporting text, images, PDFs, audio, and video); rate and review completed consultations. Patients also manage a comprehensive personal health record covering medications, prescriptions, insurance policies, lab tests and scans, allergies, chronic conditions, family history, and smoking status.<br><br><b>Key Technical Highlights</b><br>• Real-time bidirectional chat via PusherSwift WebSocket<br>• Voice prescription recording and playback using MobileVLCKit<br>• Patient medical record access control with request / approval / denial push notification flow<br>• Firebase Cloud Messaging for push notifications and cloud storage<br>• Google Maps and Google Places for location-based doctor discovery<br>• Multiple Egyptian payment gateways (Fawry, InstaPay, Vodafone Cash)<br>• Full Arabic / English localization with RTL layout support<br>• Secure credential storage via Keychain<br>• Alamofire networking with JWT bearer token auth and silent token refresh<br>• Dependency injection via Resolver<br>• Dual-target build (Care / CareD) sharing a single codebase",
